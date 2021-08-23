@@ -3,18 +3,27 @@
     "chainId": 2020,
     "homesteadBlock": 0,
     "eip150Block": 0,
-    "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "eip155Block": 0,
-    "eip158Block": 0
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "petersburgBlock": 0,
+    "istanbulBlock": 0,
+    "muirglacierblock": 0,
+    "ethash": {
+      "fixeddifficulty": 100
+    }
   },
   "nonce": "0x0000000000002020",
-  "timestamp": "0x00",
-  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "extraData": "0x00",
-  "gasLimit": "0x4c4b40",
-  "difficulty": "0x0400",
-  "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "difficulty": "0x60",
+  "gasLimit": "0x1fffffffffffff",
   "coinbase": "0x0000000000000000000000000000000000000000",
-  "alloc": {
+"alloc": {
+  "0x01466948844CF37e872B267aBa75D2c4419ED774": {
+    "balance": "10000000000000000000000000000000"
+  },
+  "0x33E849f286DC0466c0828BdD4B7601298AD051f6": {
+    "balance": "10000000000000000000000000000000"
   }
+}
 }
